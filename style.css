@@ -1,0 +1,58 @@
+*{
+    margin:0;
+}
+
+.top{
+    background-image: url(https://miesozerni.pl/wp-content/uploads/2020/03/l-sj-baren-0fmiFfzRhQY-unsplash.jpg);
+    height: 510px;
+    background-size: cover;
+    background-repeat: no-repeat;
+   display: flex;
+   justify-content: space-between;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.cnav button{
+    list-style-type: none;
+    width:100px ;
+    height: 40px;
+}
+.cnav button:hover{
+    background-color:rgb(134, 18, 18);
+
+}
+
+.manu button {
+    background-color: rgb(167, 165, 165);
+    list-style-type: none;
+    width:33%;
+    height: 40px;
+    flex-grow: 1;
+    
+}
+.manu button:hover{
+
+    background-color:rgb(134, 18, 18);
+}
+
+.manu2 {
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    margin-top: 30px;
+
+    
+}
+
+footer p{
+    display: inline;
+}
+footer {
+padding-left: 40px;
+}
+.media {
+float: right;
+padding-right: 40px;
+}
